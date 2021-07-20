@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# data is too big
+EVS.csv	
+since2016_df.csv
+stock_df.csv
+stock_sent.csv
+word2vec.model
+
