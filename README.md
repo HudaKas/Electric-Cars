@@ -68,12 +68,14 @@ The data seems to be equally spread out between positive, negative, and neutral 
 
 
 ## Conclusion
+#### Tweets
 * I tried to classify the tweet sentiments using pre-trained models such as Textblob, Bert, and glove. However, I got the best results from a word2vec model trained customly on the Electric cars tweet
 * After exploring multiple classifying models through cross-validation technique and vectorizing with dif, and also neural network LSTM and bert model found out that Multinomial NB and Logistics Regression models performed the best on the given dataset
 * After filtering out non-English Tweets and removing all tweets which do not have the word:"Car", visualized the dataset and observed that the data seems to be equally spread out between positive, negative, and neutral sentiments.
 * All the models perform better with Lemmatization and Tfdif vectorizer. Tfdif gives us most frequently present n-grams(words) within our dataset that helps our model to understand the data more efficiently and map correlations.
 * The best performing model of the whole lot was MultinomialNB. It gave us an accuracy of 77% 
 * MultinomialNB describes the probability of observing counts among a number of categories which helps us distinguish between positive, neutral, and negative sentiments with a decent accuracy
+#### Stocks
 * The Sentiments curve and stock prices have shown a similar trend over the past few years. 
 * They have followed very close to each other for major parts of the year 2017.2018,2019 and 2021.
 * The Year 2020 was a complete anomaly wherein the stock prices boomed but the sentiments plummeted. However, this can be attributed to the devastating effects of the pandemic.
