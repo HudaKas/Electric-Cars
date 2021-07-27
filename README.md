@@ -38,7 +38,7 @@
 ## Sentiment Distribution
 
 Out of 77467 tweets from the dataset:
-   * 34.9.6% are Negative sentiments
+   * 34.9% are Negative sentiments
    * 34.0% are Neutral sentiments
    * 31.1% are Positive sentiments
  
